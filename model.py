@@ -87,7 +87,7 @@ def extract_data(df):
 def build_model(input_shape, dropout = 0.5):
     """ Returns the model """
     model = Sequential()
-    model.add(Convolution2D( 3, 1, 1, border_mode = 'same',  subsample = (1, 1), init = 'uniform', input_shape = input_shape))
+    model.add(Convolution2D( 3, 1, 1, border_mode = 'same', subsample = (1, 1), init = 'uniform', input_shape = input_shape))
     model.add(Convolution2D(36, 6, 6, border_mode = 'same', subsample = (1, 1), init = 'uniform'))
     model.add(PReLU())
     model.add(BatchNormalization())
