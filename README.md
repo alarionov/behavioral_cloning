@@ -1,6 +1,8 @@
 # Training model for Udacity SDC simulator
 The goal of this project is to create a DNN model which can predict steering angle for simulated car, based on an image from the front camera of the car.
 
+Video result can be seen [here](https://www.youtube.com/watch?v=smpTdRKwt6Y).
+
 ## Data
 The car has 3 cameras: left, center and right. Cameras provide 160x320x3 RGB images.
 The center image will be used for both training and predicting.
@@ -34,6 +36,8 @@ To come with the final architecture which would satisfy the requirement, followi
 ## Final Architecture
 ![graph of the model](model.png)
 Visualization of the layers could be seen there: [html](http://htmlpreview.github.io/?https://github.com/alarionov/behavioral_cloning/blob/master/visualization.html)|[ipynb](Behavioral_Cloning.ipynb)
+
+Video result can be seen [here](https://www.youtube.com/watch?v=smpTdRKwt6Y).
 
 Usage:
 ```
